@@ -39,6 +39,7 @@ public:
             
             // Find the index for remain element
             // If the found index is not outside the end of the map
+            // (Check if key is present)
             // Then return
             if (hashmap.find(remain) != hashmap.end())
             {
